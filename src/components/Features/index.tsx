@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Our Services"
+            paragraph="Ceylon Web Crafts offers a comprehensive suite of digital solutions tailored to elevate your online presence. From expert web development and mobile app design to strategic social media marketing and SEO, we specialize in driving digital success for businesses of all sizes. With over a decade of industry experience, our team delivers customized software solutions and captivating branding strategies that resonate with your audience. Trust us to transform your digital landscape and unlock your business's full potential."
             center
           />
 
