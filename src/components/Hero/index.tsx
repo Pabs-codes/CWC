@@ -5,13 +5,14 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
-      
-        style={{
-          backgroundImage: "url('/images/hero/aaa.jpg')",
-          backgroundRepeat: "no-repeat"
-        }}
-        >
+        // className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-900 md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+
+        // style={{
+        //   backgroundImage: "url('/images/hero/aaa.jpg')",
+        //   backgroundRepeat: "no-repeat"
+        // }}
+      >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -22,8 +23,15 @@ const Hero = () => {
                 </h1>
 
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  මරාගෙන මැරෙන කඩාගෙන හැදෙන සමාජය නගනයක් ඇහැක් ඇරියම පතාගෙන ඇවිද
-                  හිතාගෙන ලැබෙන දේ බාර කරපන් දෙවියන්ගේ බාරෙට
+                  Greetings from Ceylon Web Crafts, your premier destination
+                  for cutting-edge web application development and mobile app
+                  solutions! Based in the vibrant city of Colombo, Sri Lanka, we
+                  bring over 2 years of expertise to the digital realm. As a
+                  leading player in the industry, our commitment to excellence
+                  has earned us the trust of over 300 satisfied customers
+                  globally. Our passion for web and mobile development drives us
+                  to create meaningful relationships with entities spanning
+                  various industries.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
